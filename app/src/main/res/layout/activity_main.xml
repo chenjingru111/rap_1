@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_country"
+        android:layout_marginTop="40dp"
+        android:text="生成"/>
+
+    <Button
+        android:id="@+id/btn_copy"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_create"
+        android:layout_marginTop="40dp"
+        android:text="复制"/>
+
+</RelativeLayout>
